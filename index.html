@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dad's Car File — Panchkula, 2026</title>
+<title>Your Car File — Panchkula, 2026</title>
 <meta name="description" content="A visual 5–25 lakh car decision file for a retired driver in Panchkula: verdict, five-year costs, oil-shock scenario, charging, used-car checks and schemes.">
 <meta name="robots" content="noindex,nofollow">
-<meta property="og:title" content="A car for Dad, built for $200 oil">
+<meta property="og:title" content="A car for you, built for $200 oil">
 <meta property="og:description" content="A 5–25 lakh shortlist for Panchkula: value-for-money table, EV vs petrol/CNG, oil-shock scenario, charging and used-car checks.">
-<meta property="og:image" content="https://shivam2014.github.io/dad-car-file/preview-v3.png">
+<meta property="og:image" content="https://shivam2014.github.io/dad-car-file/preview-v4.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
@@ -52,18 +52,18 @@ a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
 button{font:inherit;color:inherit}
 h1,h2,h3,h4{font-family:inherit;font-weight:700;line-height:1.05;letter-spacing:-.04em;margin:0}
-h1{font-size:clamp(42px,5.6vw,72px)}
-h2{font-size:clamp(30px,3.4vw,44px)}
+h1{font-size:clamp(38px,5vw,62px);text-wrap:balance}
+h2{font-size:clamp(27px,3vw,38px);text-wrap:balance}
 h3{font-size:clamp(22px,2.4vw,30px)}
 p{margin:0 0 1em}
 .shell{max-width:var(--max);margin:0 auto;padding:0 30px}
 .mono{font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
-.kicker{font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin-bottom:6px}
+.kicker{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin-bottom:6px}
 .eyebrow{display:flex;align-items:center;gap:10px;font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#7dd3fc}
 .eyebrow:before{content:"";width:30px;height:1px;background:#7dd3fc;display:block}
 .muted{color:var(--muted)}
-.small{font-size:12.5px;line-height:1.5;color:var(--muted)}
-.tiny{font-size:11px;line-height:1.45;color:var(--muted)}
+.small{font-size:13px;line-height:1.55;color:var(--muted)}
+.tiny{font-size:11.5px;line-height:1.5;color:var(--muted)}
 .nowrap{white-space:nowrap}
 .center{text-align:center}
 .hr{border:0;border-top:1px solid var(--line);margin:34px 0}
@@ -143,7 +143,7 @@ main,.footer{margin-left:var(--sidebar)}
 
 /* verdict strip */
 .verdict{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
-.v-card{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:15px 15px 14px;position:relative;overflow:hidden}
+.v-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:15px 15px 14px;position:relative;overflow:hidden}
 .v-card.dark{background:var(--navy);color:#fff;border-color:var(--navy)}
 .v-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--blue)}
 .v-card:nth-child(2):before{background:var(--emerald)}
@@ -160,28 +160,28 @@ main,.footer{margin-left:var(--sidebar)}
 @media(max-width:800px){.verdict{grid-template-columns:1fr}}
 
 /* sections */
-section{padding:clamp(48px,6vw,78px) 0;border-bottom:1px solid var(--line);scroll-margin-top:76px}
+section{padding:clamp(54px,6.5vw,86px) 0;border-bottom:1px solid var(--line);scroll-margin-top:88px}
 #top{scroll-margin-top:0}
 .section-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:28px}
 .ghost{font-family:"SF Mono",monospace;font-size:10px;letter-spacing:.04em;color:var(--blue);background:var(--blue-2);padding:5px 8px;border-radius:6px;white-space:nowrap;margin-top:4px}
 .section-head h2{margin:3px 0 8px;color:var(--ink)}
-.section-head .dek{font-size:15.5px;color:var(--muted);max-width:720px;margin:0}
+.section-head .dek{font-size:16px;line-height:1.6;color:#475569;max-width:62ch;margin:0;text-wrap:pretty}
 @media(max-width:760px){.section-head{flex-direction:column;gap:8px}.ghost{margin-top:0}}
 
 /* brief */
 .brief{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(20px,3vw,36px);align-items:start}
-.brief-lead{font-size:clamp(22px,2.4vw,30px);line-height:1.16;font-weight:700;letter-spacing:-.03em;margin:0 0 14px}
-.brief-lead em{font-style:normal;color:var(--blue)}
-.brief p{font-size:14.5px;color:var(--muted);max-width:56ch}
-.kpis{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-.kpi{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:14px;min-height:112px;display:flex;flex-direction:column;justify-content:space-between}
-.kpi .ico{width:27px;height:27px;border-radius:7px;display:grid;place-items:center;background:var(--blue-3);color:var(--blue);margin-bottom:7px}
-.kpi .ico svg{width:14px;height:14px}
-.kpi .lab{font-size:8px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--muted)}
-.kpi b{display:block;font-size:20px;line-height:1.1;margin:2px 0;letter-spacing:-.03em}
-.kpi span{font-size:10.5px;color:var(--muted);line-height:1.35}
-.kpi.hot{background:var(--amber-3);border-color:#fed7aa}
-.kpi.hot .ico{background:#ffedd5;color:var(--amber)}
+.brief-lead{font-size:19px;line-height:1.45;font-weight:600;letter-spacing:-.01em;margin:0 0 16px;color:var(--ink);max-width:60ch;text-wrap:pretty}
+.brief-lead em{font-style:normal;color:inherit;border-bottom:1px solid var(--line)}
+.brief p{font-size:15.5px;line-height:1.68;color:#475569;max-width:60ch;margin-bottom:1.1em;text-wrap:pretty}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line)}
+.kpi{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 0;min-height:0;display:block}
+.kpi:nth-child(odd){padding-right:20px;border-right:1px solid var(--line)}
+.kpi:nth-child(even){padding-left:20px}
+.kpi .ico{display:none}
+.kpi .lab{font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--muted)}
+.kpi b{display:block;font-size:23px;line-height:1.15;margin:6px 0 4px;letter-spacing:-.03em}
+.kpi span{font-size:11.5px;color:var(--muted);line-height:1.45}
+.kpi.hot{background:none;border-color:var(--line)}
 @media(max-width:900px){.brief{grid-template-columns:1fr}}
 @media(max-width:420px){.kpis{grid-template-columns:1fr}}
 
@@ -224,7 +224,7 @@ section{padding:clamp(48px,6vw,78px) 0;border-bottom:1px solid var(--line);scrol
 @media(max-width:760px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}.fill-card{grid-column:auto!important}}
 
 /* cards */
-.card{background:var(--surface);border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:var(--shadow-2);display:flex;flex-direction:column}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:11px;overflow:hidden;display:flex;flex-direction:column}
 .card:hover{box-shadow:0 10px 28px rgba(15,23,42,.07)}
 .card-img{position:relative;height:185px;overflow:hidden;background:#e9eef5}
 .card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
@@ -292,7 +292,7 @@ tr.highlight td{background:var(--blue-3)}
 .vfm td:last-child{min-width:190px}
 
 /* notes */
-.note{border:1px solid var(--line);border-left:3px solid var(--blue);background:var(--surface);padding:13px 15px;border-radius:0 9px 9px 0;font-size:12.5px;line-height:1.55}
+.note{border:1px solid var(--line);border-left:3px solid var(--blue);background:var(--surface);padding:14px 16px;border-radius:0 6px 6px 0;font-size:12.5px;line-height:1.55}
 .note b{color:var(--ink)}
 .note.warn{border-left-color:var(--amber);background:var(--amber-3)}
 .note.tip{border-left-color:var(--emerald);background:var(--emerald-3)}
@@ -374,7 +374,7 @@ tr.highlight td{background:var(--blue-3)}
   <div class="shell top-in">
     <a class="brand" href="#top">
       <span class="mark">D</span>
-      <span>Dad's Car File<small>Panchkula · October 2026</small></span>
+      <span>Your Car File<small>Panchkula · October 2026</small></span>
     </a>
     <nav class="nav" id="nav">
       <a href="#brief">The brief</a>
@@ -412,9 +412,9 @@ tr.highlight td{background:var(--blue-3)}
   <div class="shell">
     <div class="hero-card">
       <div class="hero-copy">
-        <div class="eyebrow">A decision file for Dad · 28 October 2026</div>
-        <h1>A car for Dad, <em>built for $200 oil.</em></h1>
-        <p class="dek">A 5–25 lakh shortlist for Dad in Panchkula — chosen for easy entry, a 5★ rating where it exists, and a fuel bill you can actually control. Not a brochure. A decision.</p>
+        <div class="eyebrow">A decision file for you · 28 October 2026</div>
+        <h1>A car for you,<br><em>built for $200 oil.</em></h1>
+        <p class="dek">A 5–25 lakh shortlist for you in Panchkula — chosen for easy entry, a 5★ rating where it exists, and a fuel bill you can actually control. Not a brochure. A decision.</p>
         <div class="hero-meta">
           <span class="tag ev"><span class="dot"></span>EV + solar hedge</span>
           <span class="tag">Comfort-first</span>
@@ -460,7 +460,7 @@ tr.highlight td{background:var(--blue-3)}
       <div>
         <div class="kicker">The 30-second version</div>
         <h2>You have home parking. The Syros EV leads. At ₹17.9L, the Curvv is the 5★ answer.</h2>
-        <p class="dek">The EV branch is open. The Brezza is the fallback only if he says no to EV; the Dzire CNG is the cheapest 5-star bridge.</p>
+        <p class="dek">The EV branch is open. The Brezza is the fallback only if you say no to EV; the Dzire CNG is the cheapest 5-star bridge.</p>
       </div>
     </div>
 
@@ -469,9 +469,9 @@ tr.highlight td{background:var(--blue-3)}
         <p class="brief-lead">You have your own parking, so the charger is not the constraint. The real decision is <em>how much range and space you want to buy</em> — and whether the 5★ rating is the thing you won't give up.</p>
         <p>The <b>Kia Syros EV 51.4</b> is the best overall: 526 km, 465 L, 171 PS, 7h15 on a 7.4 kW wallbox, ₹17.9L on-road and ₹14.65L net over five years. Autocar recommended it to a near-identical buyer. The catch: no BNCAP rating yet; the ICE Syros is 5★.</p>
         <p>At the same ₹17.9L, the <b>Tata Curvv EV 55</b> is the 5★ answer: 502 km, 500 L, 167 bhp, ₹14.16L net. If the rating is decisive, this is the car — it is also ₹0.5L cheaper over five years.</p>
-        <p>The <b>Tata Punch EV 40</b> is the value pick: ₹13.3L, ₹10.63L net, ~350 km, easy entry and a lifetime battery warranty. It is the best 5★ EV under ₹15L and ₹4L cheaper than the ₹17.9L pair. The <b>Brezza ZXi AT</b> is the fallback only if he says no to EV.</p>
+        <p>The <b>Tata Punch EV 40</b> is the value pick: ₹13.3L, ₹10.63L net, ~350 km, easy entry and a lifetime battery warranty. It is the best 5★ EV under ₹15L and ₹4L cheaper than the ₹17.9L pair. The <b>Brezza ZXi AT</b> is the fallback only if you say no to EV.</p>
         <p>If the budget must stay under ₹11L, the <b>Tata Tiago EV</b> is the cheapest to own, but it is a small city car with no NCAP rating (the petrol Tiago is 4★). The <b>Dzire CNG</b> is the cheapest 5-star and the best pure-money fallback.</p>
-        <p class="small" style="margin-top:14px">Your oil thesis changes the strength of the case, not the fork: at ₹200/L, the Punch EV's five-year gap to the Dzire CNG shrinks from ₹1.5L to about ₹0.33L. The EV is the hedge. The CNG is the bridge.</p>
+        <p class="small" style="margin-top:14px">The oil thesis changes the strength of the case, not the fork: at ₹200/L, the Punch EV's five-year gap to the Dzire CNG shrinks from ₹1.5L to about ₹0.33L. The EV is the hedge. The CNG is the bridge.</p>
       </div>
       <div class="kpis">
         <div class="kpi">
@@ -484,7 +484,7 @@ tr.highlight td{background:var(--blue-3)}
           <div class="ico"><svg><use href="#i-seat"/></svg></div>
           <div class="lab">Easiest ingress</div>
           <b>Windsor / Brezza</b>
-          <span>High seat, wide doors; test both with Dad</span>
+          <span>High seat, wide doors; try both</span>
         </div>
         <div class="kpi">
           <div class="ico"><svg><use href="#i-wallet"/></svg></div>
@@ -550,7 +550,7 @@ tr.highlight td{background:var(--blue-3)}
         <span><i style="background:#e0ac63"></i>Petrol</span>
       </div>
       <div class="bars" id="barChart"></div>
-      <p class="chart-note" id="chartNote">Cheapest is not the same as best for Dad. The Tiago EV wins the money table; the Punch EV is the 5★ value pick for about ₹1.8L more; the Syros EV is the overall pick.</p>
+      <p class="chart-note" id="chartNote">Cheapest is not the same as best for you. The Tiago EV wins the money table; the Punch EV is the 5★ value pick for about ₹1.8L more; the Syros EV is the overall pick.</p>
       <p class="chart-note">The chart shows the under-₹15L group. The value-for-money table below adds the ₹17.9L pair and the ₹18–25L cars.</p>
     </div>
 
@@ -584,7 +584,7 @@ tr.highlight td{background:var(--blue-3)}
 <tr><td><b>Skoda Kylaq AT</b><br><span class="small">Petrol</span></td><td class="num">14.71</td><td class="num">1.18<br><span class="tiny">₹11.8/km</span></td><td class="num">5.91</td><td class="num">20.62</td><td class="num">−5.20</td><td class="num"><b>15.42</b></td><td class="num">30.8</td><td class="small">Driver's pick; costliest to run</td></tr>
 <tr><td><b>Toyota Hyryder hybrid</b><br><span class="small">Hybrid</span></td><td class="num">20.10</td><td class="num">0.89<br><span class="tiny">₹8.9/km</span></td><td class="num">4.43</td><td class="num">24.53</td><td class="num">−8.38</td><td class="num"><b>16.15</b></td><td class="num">32.3</td><td class="small">Best no-charger hybrid; poor value with charging</td></tr>
 <tr><td><b>MG Windsor Pro 52.9</b><br><span class="small">EV</span></td><td class="num">19.03</td><td class="num">0.55<br><span class="tiny">₹5.5/km</span></td><td class="num">2.75</td><td class="num">21.79</td><td class="num">−5.41</td><td class="num"><b>16.37</b></td><td class="num">32.8</td><td class="small">Comfort + 449 km; no BNCAP</td></tr>
-<tr><td><b>Mahindra BE 6 59</b><br><span class="small">EV</span></td><td class="num">20.52</td><td class="num">0.59<br><span class="tiny">₹5.9/km</span></td><td class="num">2.97</td><td class="num">23.49</td><td class="num">−6.81</td><td class="num"><b>16.68</b></td><td class="num">33.4</td><td class="small">Range/tech pick; not the easiest for Dad</td></tr>
+<tr><td><b>Mahindra BE 6 59</b><br><span class="small">EV</span></td><td class="num">20.52</td><td class="num">0.59<br><span class="tiny">₹5.9/km</span></td><td class="num">2.97</td><td class="num">23.49</td><td class="num">−6.81</td><td class="num"><b>16.68</b></td><td class="num">33.4</td><td class="small">Range/tech pick; not the easiest for you</td></tr>
 <tr><td><b>Honda City hybrid</b><br><span class="small">Hybrid</span></td><td class="num">24.50</td><td class="num">1.01<br><span class="tiny">₹10.1/km</span></td><td class="num">5.07</td><td class="num">29.57</td><td class="num">−9.45</td><td class="num"><b>20.12</b></td><td class="num">40.2</td><td class="small">Sedan comfort; low seat, ₹25L</td></tr>
         </tbody>
       </table>
@@ -598,7 +598,7 @@ tr.highlight td{background:var(--blue-3)}
     </div>
 
     <div class="note" style="margin-top:14px">
-      <span class="lab">If he says no to EV</span>
+      <span class="lab">If you say no to EV</span>
       <p><b>Brezza ZXi AT</b> is the best petrol; <b>Dzire CNG</b> is the cheapest 5★; <b>Hyryder strong hybrid</b> is the best no-charger car at ₹20.1L; <b>City hybrid</b> is the sedan at ~₹24.5L. Use the table above to compare them on the same cash-flow basis.</p>
     </div>
 
@@ -655,7 +655,7 @@ tr.highlight td{background:var(--blue-3)}
     <div class="section-head">
       <div class="ghost">03 / 09</div>
       <div>
-        <div class="kicker">Your $200 thesis</div>
+        <div class="kicker">The $200 thesis</div>
         <h2>Petrol doubles. The Brezza’s five-year bill rises by ₹3.2 lakh. The Punch EV’s rises by ₹7,000.</h2>
         <p class="dek">A scenario, not a forecast. Petrol is fully exposed, CNG is partially exposed, home electricity is regulated, solar is fixed.</p>
       </div>
@@ -717,7 +717,7 @@ tr.highlight td{background:var(--blue-3)}
         </div>
         <div class="note tip" style="margin-top:12px">
           <span class="lab">What this means</span>
-          <p>If your thesis is right, the EV is not a luxury. It is <b>insurance against a fuel you cannot control</b>. The Punch EV is the cheapest all-round hedge; the Syros the roomier one and moves the same way, because electricity is regulated. The Dzire CNG is the cheapest bridge; the Brezza is the car you buy only if charging is impossible.</p>
+          <p>If the thesis is right, the EV is not a luxury. It is <b>insurance against a fuel you cannot control</b>. The Punch EV is the cheapest all-round hedge; the Syros the roomier one and moves the same way, because electricity is regulated. The Dzire CNG is the cheapest bridge; the Brezza is the car you buy only if charging is impossible.</p>
         </div>
       </div>
     </div>
@@ -752,7 +752,7 @@ tr.highlight td{background:var(--blue-3)}
       <div class="ghost">04 / 09</div>
       <div>
         <div class="kicker">The shortlist</div>
-        <h2>Three worth his time. Seven worth a look. Three ways to spend more.</h2>
+        <h2>Three worth your time. Seven worth a look. Three ways to spend more.</h2>
         <p class="dek">Scored for safety, ingress/egress, ride, control simplicity, service access, space and resale. The score is a fit guide, not the final pick.</p>
       </div>
     </div>
@@ -764,7 +764,7 @@ tr.highlight td{background:var(--blue-3)}
           <div class="card-top"><div><h3>Kia Syros EV 51.4</h3><div class="sub">HTK+ ER · automatic</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="91 100"/></svg><b>9.1</b><small>Fit score</small></div></div>
           <div class="mini-specs"><div><span>Range</span><b>526 km</b></div><div><span>Safety</span><b>Not rated</b></div><div><span>Boot</span><b>390–465 L</b></div><div><span>Battery</span><b>8 yr / 1.6L</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>526 km; 7h15 home charge</li><li>465 L max boot</li><li>171 PS, smooth regen</li></ul></div><div class="con"><h4>Watch</h4><ul><li>No NCAP result</li><li>₹4L more than Punch</li></ul></div></div>
-          <details class="acc"><summary>The full note</summary><div class="acc-body"><b>Review:</b> Autocar found it smooth, quick and roomy, with a big boot. <b>For Dad:</b> the best range and space package here. Take the Curvv if the 5★ rating is decisive.</div></details>
+          <details class="acc"><summary>The full note</summary><div class="acc-body"><b>Review:</b> Autocar found it smooth, quick and roomy, with a big boot. <b>For you:</b> the best range and space package here. Take the Curvv if the 5★ rating is decisive.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹14.65L</b></div><a class="go" href="#money">See the math</a></div>
         </div>
       </article>
@@ -775,7 +775,7 @@ tr.highlight td{background:var(--blue-3)}
           <div class="card-top"><div><h3>Tata Punch EV 40</h3><div class="sub">Empowered+ S · automatic</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="90 100"/></svg><b>9.0</b><small>Fit score</small></div></div>
           <div class="mini-specs"><div><span>Range</span><b>~350 km</b></div><div><span>Safety</span><b>5★ BNCAP</b></div><div><span>Boot</span><b>366 L</b></div><div><span>Battery</span><b>Lifetime, 1st</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>5★, 31.09/32 adult</li><li>Easy ingress, 90° doors</li><li>Lifetime battery</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Firm low-speed ride</li><li>Tata service varies</li></ul></div></div>
-          <details class="acc"><summary>The full note</summary><div class="acc-body"><b>Owner voice:</b> 40,000 km in a year, no major failures; 2026 owners reported a BMS range-display bug that Tata has been fixing. <b>For Dad:</b> the best 5★ car here and ₹4L cheaper than the ₹17.9L pair. Test the ride over your speed breakers; if too firm, see the Windsor.</div></details>
+          <details class="acc"><summary>The full note</summary><div class="acc-body"><b>Owner voice:</b> 40,000 km in a year, no major failures; 2026 owners reported a BMS range-display bug that Tata has been fixing. <b>For you:</b> the best 5★ car here and ₹4L cheaper than the ₹17.9L pair. Test the ride over your speed breakers; if too firm, see the Windsor.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹10.63L</b></div><a class="go" href="#money">See the math</a></div>
         </div>
       </article>
@@ -786,7 +786,7 @@ tr.highlight td{background:var(--blue-3)}
           <div class="card-top"><div><h3>Maruti Brezza</h3><div class="sub">ZXi AT · 1.5 petrol</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="91 100"/></svg><b>9.1</b><small>Fit score</small></div></div>
           <div class="mini-specs"><div><span>Mileage</span><b>15–16 km/L</b></div><div><span>Safety</span><b>5★ BNCAP</b></div><div><span>Boot</span><b>328 L</b></div><div><span>Service</span><b>~₹6k/yr</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>High seat, 198 mm GC</li><li>Smooth 6AT</li><li>Maruti network</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Smaller boot</li><li>15–16 km/L</li></ul></div></div>
-          <details class="acc"><summary>The full note</summary><div class="acc-body"><b>Owner voice:</b> 15–18 kmpl, no drama; service is cheap and parts are everywhere. <b>For Dad:</b> the default if charging is impossible. Test the seat height and the 6AT in traffic — it is the least stressful petrol car here.</div></details>
+          <details class="acc"><summary>The full note</summary><div class="acc-body"><b>Owner voice:</b> 15–18 kmpl, no drama; service is cheap and parts are everywhere. <b>For you:</b> the default if charging is impossible. Test the seat height and the 6AT in traffic — it is the least stressful petrol car here.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹12.96L</b></div><a class="go" href="#money">See the math</a></div>
         </div>
       </article>
@@ -803,7 +803,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Nexon EV 45</h3><div class="sub">Creative · automatic</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="87 100"/></svg><b>8.7</b></div></div>
           <div class="mini-specs"><div><span>Range</span><b>350–375 km</b></div><div><span>Safety</span><b>5★</b></div><div><span>Boot</span><b>350 L</b></div><div><span>Battery</span><b>Lifetime, 1st</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>Long range, 5★</li><li>Fast DC charging</li><li>Strong highway car</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Tight rear seat</li><li>Firm ride</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">5,100 km owner: 400–450 km city range, one transient error. A cell fault at 41k km was replaced under warranty. <b>For Dad:</b> pick it over the Punch only if range or rear space is the priority.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">5,100 km owner: 400–450 km city range, one transient error. A cell fault at 41k km was replaced under warranty. <b>For you:</b> pick it over the Punch only if range or rear space is the priority.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹12.07L</b></div></div>
         </div>
       </article>
@@ -813,7 +813,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Dzire CNG</h3><div class="sub">ZXi · 5-speed AMT</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="84 100"/></svg><b>8.4</b></div></div>
           <div class="mini-specs"><div><span>Mileage</span><b>25–28 km/kg</b></div><div><span>Safety</span><b>5★</b></div><div><span>Boot</span><b>382 L</b></div><div><span>Service</span><b>~₹5k/yr</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>Cheapest 5★</li><li>₹3.3–3.8/km</li><li>Maruti resale</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Low seat</li><li>CNG queue</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">22–25 kmpl petrol, ~25 km/kg CNG; AMT jerky on hills, fine in the city. <b>For Dad:</b> the money answer, but try the rear seat before you commit.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">22–25 kmpl petrol, ~25 km/kg CNG; AMT jerky on hills, fine in the city. <b>For you:</b> the money answer, but try the rear seat before you commit.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹9.14L</b></div></div>
         </div>
       </article>
@@ -823,7 +823,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Honda Amaze</h3><div class="sub">ZX CVT · 1.2 petrol</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="83 100"/></svg><b>8.3</b></div></div>
           <div class="mini-specs"><div><span>Mileage</span><b>15–17 km/L</b></div><div><span>Safety</span><b>5★ adult</b></div><div><span>Boot</span><b>416 L</b></div><div><span>Service</span><b>~₹7k/yr</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>Smoothest CVT</li><li>Big boot, 5★</li><li>Honda reliability</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Low seat</li><li>Modest power</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">Smooth, solid, 15–17 kmpl; the sensible sedan. <b>For Dad:</b> only if he prefers a sedan and mostly drives on good roads; the low seat is the trade-off.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">Smooth, solid, 15–17 kmpl; the sensible sedan. <b>For you:</b> only if you prefer a sedan and mostly drives on good roads; the low seat is the trade-off.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹12.52L</b></div></div>
         </div>
       </article>
@@ -833,7 +833,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Skoda Kylaq</h3><div class="sub">Signature AT · 1.0 TSI</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="82 100"/></svg><b>8.2</b></div></div>
           <div class="mini-specs"><div><span>Mileage</span><b>12–14 km/L</b></div><div><span>Safety</span><b>5★</b></div><div><span>Boot</span><b>385 L</b></div><div><span>Service</span><b>~₹9k/yr</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>Best to drive</li><li>5★, solid build</li><li>Smooth 6AT</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Costliest to run</li><li>Firm ride</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">Fun, 12–14 kmpl; service costs rise after warranty. <b>For Dad:</b> only if he genuinely enjoys driving. The Brezza is easier to live with.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">Fun, 12–14 kmpl; service costs rise after warranty. <b>For you:</b> only if you genuinely enjoy driving. The Brezza is easier to live with.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹15.42L</b></div></div>
         </div>
       </article>
@@ -843,7 +843,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Punch petrol</h3><div class="sub">AMT · 1.2 petrol</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="85 100"/></svg><b>8.5</b></div></div>
           <div class="mini-specs"><div><span>Mileage</span><b>14–16 km/L</b></div><div><span>Safety</span><b>5★</b></div><div><span>Boot</span><b>366 L</b></div><div><span>Service</span><b>~₹6k/yr</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>5★ at ₹11L</li><li>Easy ingress</li><li>High clearance</li></ul></div><div class="con"><h4>Watch</h4><ul><li>AMT jerk</li><li>3-cyl noise</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">Good city car, 14–16 kmpl; the AMT is fine once learned. <b>For Dad:</b> a safer, taller Dzire alternative; test the AMT before deciding.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">Good city car, 14–16 kmpl; the AMT is fine once learned. <b>For you:</b> a safer, taller Dzire alternative; test the AMT before deciding.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹11.78L</b></div></div>
         </div>
       </article>
@@ -853,7 +853,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Hyundai Exter</h3><div class="sub">SX AMT · 1.2 petrol</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="76 100"/></svg><b>7.6</b></div></div>
           <div class="mini-specs"><div><span>Mileage</span><b>15–17 km/L</b></div><div><span>Safety</span><b>Untested</b></div><div><span>Boot</span><b>391 L</b></div><div><span>Service</span><b>~₹6.5k/yr</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>High seat</li><li>Big boot</li><li>Hyundai network</li></ul></div><div class="con"><h4>Watch</h4><ul><li>No NCAP result</li><li>AMT, not 6AT</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">Easy to drive, 15–17 kmpl; safety is the weak point. <b>For Dad:</b> good ergonomics, and the 5★ Venue is ₹5L more. Skip unless the deal is exceptional.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">Easy to drive, 15–17 kmpl; safety is the weak point. <b>For you:</b> good ergonomics, and the 5★ Venue is ₹5L more. Skip unless the deal is exceptional.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹11.81L</b></div></div>
         </div>
       </article>
@@ -863,7 +863,7 @@ tr.highlight td{background:var(--blue-3)}
         <div class="card-body"><div class="card-top"><div><h3>Tiago EV 24</h3><div class="sub">Creative+ · automatic</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="80 100"/></svg><b>8.0</b></div></div>
           <div class="mini-specs"><div><span>Range</span><b>200–230 km</b></div><div><span>Safety</span><b>Not rated</b></div><div><span>Boot</span><b>240 L</b></div><div><span>Battery</span><b>Lifetime, 1st</b></div></div>
           <div class="pc"><div class="pro"><h4>Why</h4><ul><li>Cheapest 5-yr</li><li>Easiest to park</li><li>Lifetime battery</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Small; EV unrated</li><li>City-only range</li></ul></div></div>
-          <details class="acc"><summary>Owner note</summary><div class="acc-body">220 km real, 80 paise/km; service is the weak point. <b>For Dad:</b> only if his driving is purely city and parking is tight. The Punch is worth the extra for space and the 5★ rating.</div></details>
+          <details class="acc"><summary>Owner note</summary><div class="acc-body">220 km real, 80 paise/km; service is the weak point. <b>For you:</b> only if your driving is purely city and parking is tight. The Punch is worth the extra for space and the 5★ rating.</div></details>
           <div class="card-foot"><div class="tco">5-yr net<b>₹8.85L</b></div></div>
         </div>
       </article>
@@ -921,7 +921,7 @@ tr.highlight td{background:var(--blue-3)}
             <div class="card-top"><div><h3>Toyota Hyryder</h3><div class="sub">S strong hybrid · e-CVT</div></div><div class="ring"><svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="25"/><circle class="fg" cx="30" cy="30" r="25" pathLength="100" stroke-dasharray="84 100"/></svg><b>8.4</b><small>Fit score</small></div></div>
             <div class="mini-specs"><div><span>Mileage</span><b>27.97 ARAI</b></div><div><span>Safety</span><b>Not BNCAP</b></div><div><span>Boot</span><b>265 L</b></div><div><span>Battery</span><b>8 yr / 1.6L</b></div></div>
             <div class="pc"><div class="pro"><h4>Why</h4><ul><li>27 kmpl, e-CVT</li><li>No charging needed</li><li>Toyota reliability</li></ul></div><div class="con"><h4>Watch</h4><ul><li>Still burns petrol</li><li>265 L boot, no BNCAP</li></ul></div></div>
-            <p class="small" style="margin:0"><b>Why not the main pick:</b> ₹20.1L buy, ₹0.89L/yr, ₹16.15L net. With home charging, the Curvv EV is ~₹2L cheaper over five years and its fuel/energy cost is ~₹0.7/km vs ~₹4.2/km for the hybrid. The Hyryder only wins if he refuses to plug in.</p>
+            <p class="small" style="margin:0"><b>Why not the main pick:</b> ₹20.1L buy, ₹0.89L/yr, ₹16.15L net. With home charging, the Curvv EV is ~₹2L cheaper over five years and its fuel/energy cost is ~₹0.7/km vs ~₹4.2/km for the hybrid. The Hyryder only wins if you refuse to plug in.</p>
             <div class="card-foot"><div class="tco">5-yr net<b>₹16.15L</b></div></div>
           </div>
         </article>
@@ -929,7 +929,7 @@ tr.highlight td{background:var(--blue-3)}
 
       <div class="note" style="margin-top:14px">
         <span class="lab">The rest of the ₹25L field</span>
-        <p><b>Mahindra BE 6 59</b> (₹20.5L, 548 km, 5★) is the range/tech pick but not the easiest car for Dad. <b>Hyundai Creta Electric 51.4</b> (~₹25.4L on-road, 473 km) is the comfort EV, but has no NCAP result of its own. <b>Honda City hybrid</b> (~₹24.5L) is the sedan — lovely, but low seat and ₹20.1L net over five years.</p>
+        <p><b>Mahindra BE 6 59</b> (₹20.5L, 548 km, 5★) is the range/tech pick but not the easiest car for you. <b>Hyundai Creta Electric 51.4</b> (~₹25.4L on-road, 473 km) is the comfort EV, but has no NCAP result of its own. <b>Honda City hybrid</b> (~₹24.5L) is the sedan — lovely, but low seat and ₹20.1L net over five years.</p>
       </div>
     </div>
 
@@ -952,7 +952,7 @@ tr.highlight td{background:var(--blue-3)}
             <tr><td><b>Kia Seltos 1.5</b></td><td><span class="tag petrol">Petrol</span></td><td class="num">18.5</td><td class="num">1.10</td><td class="num"><b>16.59</b></td><td class="small">5★ BNCAP (31.70/32), bigger, smoother CVT; premium over Syros.</td></tr>
             <tr><td><b>Kia Carens Clavis</b></td><td><span class="tag petrol">Petrol</span></td><td class="num">25.0</td><td class="num">1.28</td><td class="num"><b>22.14</b></td><td class="small">6/7 seats; no BNCAP, Carens was 3★ GNCAP. Only if seats matter more than safety.</td></tr>
             <tr><td><b>Kia Carens Clavis EV</b></td><td><span class="tag ev">EV</span></td><td class="num">19.0</td><td class="num">0.57</td><td class="num"><b>15.0</b></td><td class="small">6/7 seats, 42/51.4 kWh, 404/490 km; no BNCAP. Only if 7 seats matter more than safety.</td></tr>
-            <tr><td><b>Kia Sonet</b></td><td><span class="tag petrol">Petrol</span></td><td class="num">16.9</td><td class="num">1.01</td><td class="num"><b>15.58</b></td><td class="small">Not BNCAP-tested; Africa-spec 1★ GNCAP. Avoid for Dad.</td></tr>
+            <tr><td><b>Kia Sonet</b></td><td><span class="tag petrol">Petrol</span></td><td class="num">16.9</td><td class="num">1.01</td><td class="num"><b>15.58</b></td><td class="small">Not BNCAP-tested; Africa-spec 1★ GNCAP. Avoid.</td></tr>
             <tr><td><b>Hyundai Venue 2026</b></td><td><span class="tag petrol">Petrol</span></td><td class="num">16.9</td><td class="num">1.02</td><td class="num"><b>15.48</b></td><td class="small">5★ BNCAP (31.15/32); best Hyundai value, but smaller than Brezza.</td></tr>
             <tr><td><b>Hyundai Creta Electric</b></td><td><span class="tag ev">EV</span></td><td class="num">25.4</td><td class="num">0.67</td><td class="num"><b>20.18</b></td><td class="small">473 km, roomy, but no NCAP result. Comfort EV, not a safety pick.</td></tr>
             <tr><td><b>Hyundai Creta 1.5</b></td><td><span class="tag petrol">Petrol</span></td><td class="num">20.0</td><td class="num">1.12</td><td class="num"><b>17.75</b></td><td class="small">No BNCAP. The 3★ GNCAP is the 2022 pre-facelift; the current car is untested. The Seltos is the safer 5★ alternative.</td></tr>
@@ -965,7 +965,7 @@ tr.highlight td{background:var(--blue-3)}
       <div class="grid-3" style="margin-top:14px">
         <div class="note tip" style="margin:0"><span class="lab">Kia pick</span><p><b>Syros EV 51.4</b> — 526 km, 171 PS, 465 L boot, ₹17–20L ex. The ICE Syros is 5★ BNCAP; the EV is not rated yet. It is the overall pick — if you will take it without a 5★ result. The Curvv EV is the 5★ at the same ₹17.9L; the Punch is the cheaper 5★.</p></div>
         <div class="note" style="margin:0"><span class="lab">Hyundai pick</span><p><b>Venue 2026</b> — 5★ BNCAP, ₹16.9L top on-road. Smaller than the Brezza, but the safety score is now there. The Creta Electric is roomier but has no NCAP result.</p></div>
-        <div class="note warn" style="margin:0"><span class="lab">Skip for Dad</span><p><b>Kia Sonet</b> — not BNCAP-tested; Africa-spec 1★. <b>Carens Clavis</b> — no BNCAP; Carens was 3★. <b>Hyundai Creta</b> — no BNCAP; the 3★ is the 2022 car, the current one is untested.</p></div>
+        <div class="note warn" style="margin:0"><span class="lab">Skip</span><p><b>Kia Sonet</b> — not BNCAP-tested; Africa-spec 1★. <b>Carens Clavis</b> — no BNCAP; Carens was 3★. <b>Hyundai Creta</b> — no BNCAP; the 3★ is the 2022 car, the current one is untested.</p></div>
       </div>
     </div>
 
@@ -975,19 +975,19 @@ tr.highlight td{background:var(--blue-3)}
         <p class="tiny" style="margin-top:0">Only models with an on-road price at or under ₹25L in Panchkula are listed. Ratings were re-checked against the Bharat NCAP results list and Global NCAP's India results on 28 October 2026. “Untested” means neither agency has published a result for that model — it is not a prediction.</p>
         <div class="table-wrap">
           <table class="vfm audit" style="min-width:900px">
-            <thead><tr><th>Brand</th><th>What is in range</th><th>Safety / powertrain</th><th>Verdict for Dad</th></tr></thead>
+            <thead><tr><th>Brand</th><th>What is in range</th><th>Safety / powertrain</th><th>Verdict for you</th></tr></thead>
             <tbody>
               <tr><td><b>Maruti Suzuki</b></td><td class="small">Swift, Baleno, Dzire, Fronx, Brezza, Grand Vitara, Victoris, e Vitara, Ertiga/XL6</td><td class="small">Dzire, Brezza, e Vitara, Victoris: 5★ BNCAP. Grand Vitara/Hyryder: not tested. Ertiga/XL6: 3★ GNCAP (2019); current car untested.</td><td class="small">Dzire/Brezza are the value picks; <b>e Vitara</b> is the Maruti EV (543 km, ₹16.2–20.2L ex); Victoris strong hybrid for mileage; Ertiga/XL6 only if 7 seats.</td></tr>
               <tr><td><b>Tata</b></td><td class="small">Tiago, Tigor, Altroz, Punch, Nexon, Curvv, Sierra; Harrier/Safari over</td><td class="small">Punch/Nexon/Curvv/Altroz/Sierra: 5★ BNCAP. Tiago/Tigor: 4★ GNCAP. Sierra EV: not yet rated.</td><td class="small">Punch EV is the value EV; Curvv EV the 5★ at ₹17.9L; Sierra the new 5★ petrol/diesel (₹11.5–21.3L ex); Altroz the 5★ petrol hatch; Tiago the cheapest EV.</td></tr>
               <tr><td><b>Hyundai</b></td><td class="small">Exter, Venue, i20, Aura, Creta, Alcazar, Bayon, Creta Electric; Ioniq 5 over</td><td class="small">Venue: 5★ BNCAP. i20 (2022) and the 2022 Creta: 3★ GNCAP. Exter, Aura, Creta Electric, Alcazar and Bayon: no result from either agency.</td><td class="small"><b>Venue 2026</b> is the only Hyundai safety-value; Creta Electric is roomy but untested — only if comfort outranks crash rating.</td></tr>
-              <tr><td><b>Mahindra</b></td><td class="small">XUV 3XO, XUV400 EV, XUV 7XO, BE 6, Scorpio N, Thar Roxx; XEV 9e over</td><td class="small">XUV 3XO, XUV400 EV, XUV 7XO, BE 6, Thar Roxx: 5★ BNCAP. Scorpio N: 5★ Global NCAP.</td><td class="small"><b>XUV 3XO</b> is the compact 5★ value (₹7.8–15L ex); <b>XUV 7XO</b> the 7-seat 5★ (₹13.7–24.9L ex); BE 6 for range/tech; Scorpio/Thar not for Dad.</td></tr>
+              <tr><td><b>Mahindra</b></td><td class="small">XUV 3XO, XUV400 EV, XUV 7XO, BE 6, Scorpio N, Thar Roxx; XEV 9e over</td><td class="small">XUV 3XO, XUV400 EV, XUV 7XO, BE 6, Thar Roxx: 5★ BNCAP. Scorpio N: 5★ Global NCAP.</td><td class="small"><b>XUV 3XO</b> is the compact 5★ value (₹7.8–15L ex); <b>XUV 7XO</b> the 7-seat 5★ (₹13.7–24.9L ex); BE 6 for range/tech; Scorpio/Thar not for you.</td></tr>
               <tr><td><b>Kia</b></td><td class="small">Sonet, Syros, Seltos, Carens, Carens Clavis, Syros EV, Carens EV; EV6 over</td><td class="small">Syros/Seltos: 5★ BNCAP. Syros EV: not yet rated (ICE 5★). Sonet: 1★ GNCAP (Africa-spec); Carens: 3★ GNCAP. Neither is BNCAP-tested.</td><td class="small"><b>Syros EV</b> is the overall pick — 526 km, 465 L, ₹17–20L ex; Syros ICE if no charging; Sonet/Carens avoid.</td></tr>
               <tr><td><b>BYD</b></td><td class="small">Atto 3, eMAX 7; Seal/Sealion over</td><td class="small">Atto 3: 5★ Euro NCAP. eMAX 7: no BNCAP.</td><td class="small">Atto 3 is ₹26.6L on-road, eMAX 7 ₹29.7L — both over ₹25L. No value here.</td></tr>
               <tr><td><b>MG</b></td><td class="small">Comet, Windsor, Windsor Pro, ZS EV, Astor, Hector, Hector Tomahawk EV</td><td class="small">Windsor: no BNCAP. ZS EV: 5★ Euro (older). Hector EV: 517 km, no BNCAP. Astor/Hector: no BNCAP.</td><td class="small">Windsor is the comfort pick; Hector EV only if range/space matter more than crash rating; ZS EV is old.</td></tr>
               <tr><td><b>Honda</b></td><td class="small">Amaze, City, City hybrid, Elevate</td><td class="small">Amaze: 5★ BNCAP (4★ child). City: 4★ GNCAP (4th gen, 2022; current untested). Elevate: 5★ Japan NCAP, no BNCAP. City hybrid: 27 kmpl.</td><td class="small">Amaze is the value; City hybrid the sedan; Elevate has no India rating — not a safety bet.</td></tr>
-              <tr><td><b>Lexus</b></td><td class="small">UX 300h; LBX if launched</td><td class="small">Cheapest new Lexus is ~₹45L.</td><td class="small"><b>None under ₹25L.</b> Used only; not a value proposition for Dad.</td></tr>
+              <tr><td><b>Lexus</b></td><td class="small">UX 300h; LBX if launched</td><td class="small">Cheapest new Lexus is ~₹45L.</td><td class="small"><b>None under ₹25L.</b> Used only; not a value proposition for you.</td></tr>
               <tr><td><b>Toyota</b></td><td class="small">Glanza, Taisor, Hyryder, Rumion, Ebella, Innova Hycross/Crysta</td><td class="small">Hyryder: not tested. Ebella: 543 km, ₹23.6L ex, not tested under the Toyota badge — it is the e Vitara twin, which is 5★ BNCAP. Hycross: 5★ BNCAP.</td><td class="small">Hyryder is the no-charger benchmark; Ebella sits at the ceiling; Hycross if 7 seats; Glanza/Taisor are Maruti twins.</td></tr>
-              <tr><td><b>Volkswagen</b></td><td class="small">Taigun, Virtus</td><td class="small">5★ GNCAP; 1.0/1.5 TSI.</td><td class="small">Good to drive, but higher service/parts and firmer ride; not the value pick for Dad.</td></tr>
+              <tr><td><b>Volkswagen</b></td><td class="small">Taigun, Virtus</td><td class="small">5★ GNCAP; 1.0/1.5 TSI.</td><td class="small">Good to drive, but higher service/parts and firmer ride; not the value pick for you.</td></tr>
               <tr><td><b>Skoda</b></td><td class="small">Kylaq, Kushaq, Slavia</td><td class="small">Kylaq: 5★ BNCAP. Kushaq/Slavia: 5★ GNCAP.</td><td class="small">Kylaq is the value; Kushaq/Slavia are better to drive but cost more to run.</td></tr>
             </tbody>
           </table>
@@ -1042,12 +1042,12 @@ tr.highlight td{background:var(--blue-3)}
         <div>
           <div class="kicker">Charging speed</div>
           <h3 style="font-size:clamp(26px,3vw,36px)">The wallbox is the number that matters, not the DC headline.</h3>
-          <p class="dek">He will charge at home almost every night. These are brochure figures — the AC column is the daily one; DC matters on the two or three highway trips a year.</p>
+          <p class="dek">You will charge at home almost every night. These are brochure figures — the AC column is the daily one; DC matters on the two or three highway trips a year.</p>
         </div>
       </div>
       <div class="table-wrap">
         <table class="vfm" style="min-width:760px">
-          <thead><tr><th>Car</th><th class="num">Battery</th><th class="num">AC</th><th class="num">AC 10–100%</th><th class="num">DC peak</th><th class="num">DC 10–80%</th><th>For Dad</th></tr></thead>
+          <thead><tr><th>Car</th><th class="num">Battery</th><th class="num">AC</th><th class="num">AC 10–100%</th><th class="num">DC peak</th><th class="num">DC 10–80%</th><th>For you</th></tr></thead>
           <tbody>
             <tr><td><b>Tata Punch EV 40</b></td><td class="num">40 kWh</td><td class="num">7.2 kW</td><td class="num">5.3 h</td><td class="num">65 kW</td><td class="num">30 min</td><td class="small">5★; full overnight charge</td></tr>
             <tr><td><b>Tata Nexon EV 45</b></td><td class="num">45 kWh</td><td class="num">7.2 kW</td><td class="num">6.6 h</td><td class="num">60 kW</td><td class="num">40 min</td><td class="small">Overnight; 40 min on the highway</td></tr>
@@ -1148,8 +1148,8 @@ tr.highlight td{background:var(--blue-3)}
 
       <div>
         <div class="note tip" style="margin-top:0"><span class="lab">The big one</span><p><b>Haryana EV road tax is 0% up to ₹30L.</b> On a ₹14L EV that is ~₹1.12L saved versus an 8% petrol tax. Buy from a Haryana dealer and register in Panchkula; the exemption applies to vehicles purchased and registered in Haryana.</p></div>
-        <div class="note" style="margin-top:10px"><span class="lab">What applies to Dad</span><p>Retired private-bank officer: <b>no CSD</b>, <b>no age-based car discount</b>, <b>no bank-retiree car discount</b>. Dealer corporate offers are usually for serving employees. A pensioner car loan is financing, not a discount.</p></div>
-        <div class="note warn" style="margin-top:10px"><span class="lab">If you need a loan</span><p>Most banks want repayment finished by age 70–75. If Dad is past that, a joint loan with you as co-applicant (or cash) is the practical route. Compare 8.5–9.5% offers; dealer-financed insurance is usually marked up.</p></div>
+        <div class="note" style="margin-top:10px"><span class="lab">What applies to you</span><p>Retired private-bank officer: <b>no CSD</b>, <b>no age-based car discount</b>, <b>no bank-retiree car discount</b>. Dealer corporate offers are usually for serving employees. A pensioner car loan is financing, not a discount.</p></div>
+        <div class="note warn" style="margin-top:10px"><span class="lab">If you need a loan</span><p>Most banks want repayment finished by age 70–75. If you are past that, a joint loan with your son or daughter as co-applicant (or cash) is the practical route. Compare 8.5–9.5% offers; dealer-financed insurance is usually marked up.</p></div>
       </div>
     </div>
 
@@ -1169,7 +1169,7 @@ tr.highlight td{background:var(--blue-3)}
       <div>
         <div class="kicker">Test-drive day</div>
         <h2>Print this. Try the seats, controls and ride.</h2>
-        <p class="dek">The goal is not to fall in love with a car. It is to find the one that fits his daily life for five years.</p>
+        <p class="dek">The goal is not to fall in love with a car. It is to find the one that fits your daily life for five years.</p>
       </div>
     </div>
 
@@ -1177,9 +1177,9 @@ tr.highlight td{background:var(--blue-3)}
       <div class="card" style="padding:18px">
         <h3 style="font-size:22px;margin-bottom:10px">Before you leave</h3>
         <ul class="small" style="list-style:none;padding:0;margin:0;display:grid;gap:8px">
-          <li>☐ Bring Dad and the shoes he actually wears.</li>
-          <li>☐ Bring his licence and spectacles; he should drive, not just sit.</li>
-          <li>☐ List his three non-negotiables (seat comfort, automatic, camera).</li>
+          <li>☐ Bring the shoes you actually wear.</li>
+          <li>☐ Bring your licence and spectacles; you should drive, not just sit.</li>
+          <li>☐ List your three non-negotiables (seat comfort, automatic, camera).</li>
           <li>☐ Get the on-road quote in writing before the test drive.</li>
           <li>☐ Ask for a route with a rough patch, a speed breaker and tight parking.</li>
         </ul>
@@ -1190,7 +1190,7 @@ tr.highlight td{background:var(--blue-3)}
           <li>☐ Try the front and rear seats; check step-in height and door opening.</li>
           <li>☐ Seat height: you should be able to slide in without climbing or dropping.</li>
           <li>☐ Door sill and grab handle; wide-opening doors matter.</li>
-          <li>☐ Can he see over the dash and out the rear after adjusting?</li>
+          <li>☐ Can you see over the dash and out the rear after adjusting?</li>
           <li>☐ Find AC, volume and hazard without looking down.</li>
           <li>☐ Spare tyre or puncture kit? Ask.</li>
           <li>☐ Battery warranty for the second owner? In writing.</li>
@@ -1269,7 +1269,7 @@ tr.highlight td{background:var(--blue-3)}
       <div>
         <div class="kicker" style="color:#bfdbfe">Our recommendation</div>
         <h3 style="color:#fff;font-size:clamp(26px,3vw,38px);margin:6px 0 8px">Charger → Syros EV → 3 kW solar.</h3>
-        <p style="color:#dbeafe;font-size:14px;margin:0;max-width:640px">Start with the <b>Syros EV</b>; take the <b>Curvv EV 55</b> if the 5★ rating is decisive — same ₹17.9L, ₹0.5L cheaper over five years. The <b>Punch EV</b> is the value pick at ₹13.3L. Above that, the <b>e Vitara 61</b>; if he says no to EV, the Brezza ZXi AT; under ₹11L, the Dzire CNG. Test the Windsor only if comfort matters more than the missing BNCAP.</p>
+        <p style="color:#dbeafe;font-size:14px;margin:0;max-width:640px">Start with the <b>Syros EV</b>; take the <b>Curvv EV 55</b> if the 5★ rating is decisive — same ₹17.9L, ₹0.5L cheaper over five years. The <b>Punch EV</b> is the value pick at ₹13.3L. Above that, the <b>e Vitara 61</b>; if you say no to EV, the Brezza ZXi AT; under ₹11L, the Dzire CNG. Test the Windsor only if comfort matters more than the missing BNCAP.</p>
       </div>
       <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:16px">
         <div class="tiny" style="color:#a9c2b2;text-transform:uppercase;letter-spacing:.1em;font-weight:800">The one thing not to do</div>
@@ -1378,7 +1378,7 @@ tr.highlight td{background:var(--blue-3)}
 
 <footer class="footer">
   <div class="shell">
-    <div class="big">Made for Dad.</div>
+    <div class="big">Made for you.</div>
     <p style="max-width:620px">Panchkula · Haryana · October 2026. A family research file, not a dealer brochure. Print it, mark it up, and take it to the test drive.</p>
     <div class="footer-grid">
       <div>Prepared 28 October 2026<br>Prices and schemes subject to change</div>
@@ -1404,7 +1404,7 @@ const CARS = [
   {name:'Kylaq', sub:'1.0 TSI · 5★', fuel:'petrol', ex:12.99, eff:13, tax:.08, ins:.042, svc:9000, res:.40}
 ];
 const SCEN = {
-  base:{p:101.54,c:93.80,e:5.0,label:'Base · Oct 2026',note:'Cheapest is not the same as best for Dad. The Tiago EV wins the money table; the Punch EV is the 5★ value pick for about ₹1.8L more; the Syros EV is the overall pick.'},
+  base:{p:101.54,c:93.80,e:5.0,label:'Base · Oct 2026',note:'Cheapest is not the same as best for you. The Tiago EV wins the money table; the Punch EV is the 5★ value pick for about ₹1.8L more; the Syros EV is the overall pick.'},
   '150':{p:150,c:125,e:5.5,label:'Oil $150',note:'Petrol cars already lose ground. The Brezza rises by ₹1.56L; the Punch EV by ₹0.03L. CNG remains the cheapest fossil bridge.'},
   '200':{p:200,c:160,e:6.0,label:'Oil $200',note:'The Brezza rises by ₹3.2L; the Punch EV by ₹0.07L. At 15,000 km/year the Punch EV overtakes the Dzire CNG. This is the hedge.'}
 };
