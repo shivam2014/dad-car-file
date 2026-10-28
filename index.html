@@ -550,8 +550,8 @@ tr.highlight td{background:var(--blue-3)}
         <span><i style="background:#e0ac63"></i>Petrol</span>
       </div>
       <div class="bars" id="barChart"></div>
-      <p class="chart-note" id="chartNote">Cheapest is not the same as best for you. The Tiago EV wins the money table; the Punch EV is the 5★ value pick for about ₹1.8L more; the Syros EV is the overall pick.</p>
-      <p class="chart-note">The chart shows the under-₹15L group. The value-for-money table below adds the ₹17.9L pair and the ₹18–25L cars.</p>
+      <p class="chart-note" id="chartNote">Cheapest is not the same as best for you. The Syros EV — the overall pick — is 11th on cost, ₹5.8L above the Tiago over five years. The Punch EV is the 5★ value at ₹1.8L over the Tiago.</p>
+      <p class="chart-note">The chart shows the shortlist, including the ₹17.9L pair; the table adds the rest up to ₹25L.</p>
     </div>
 
     <div class="note" style="margin-top:16px">
@@ -1401,10 +1401,12 @@ const CARS = [
   {name:'Amaze', sub:'1.2 CVT · 5★', fuel:'petrol', ex:11.20, eff:16, tax:.08, ins:.042, svc:7000, res:.45},
   {name:'Brezza', sub:'1.5 AT · 5★', fuel:'petrol', ex:11.99, eff:15.5, tax:.08, ins:.042, svc:6000, res:.47},
   {name:'Windsor', sub:'38 kWh · no NCAP', fuel:'ev', ex:14.85, eff:7.5, tax:0, ins:.045, svc:4000, res:.30},
-  {name:'Kylaq', sub:'1.0 TSI · 5★', fuel:'petrol', ex:12.99, eff:13, tax:.08, ins:.042, svc:9000, res:.40}
+  {name:'Kylaq', sub:'1.0 TSI · 5★', fuel:'petrol', ex:12.99, eff:13, tax:.08, ins:.042, svc:9000, res:.40},
+  {name:'Curvv EV', sub:'55 kWh · 5★', fuel:'ev', ex:17.0, eff:6.8, tax:0, ins:.045, svc:4500, res:.38},
+  {name:'Syros EV', sub:'51.4 kWh · no 5★', fuel:'ev', ex:17.0, eff:7.3, tax:0, ins:.045, svc:4500, res:.35}
 ];
 const SCEN = {
-  base:{p:101.54,c:93.80,e:5.0,label:'Base · Oct 2026',note:'Cheapest is not the same as best for you. The Tiago EV wins the money table; the Punch EV is the 5★ value pick for about ₹1.8L more; the Syros EV is the overall pick.'},
+  base:{p:101.54,c:93.80,e:5.0,label:'Base · Oct 2026',note:'Cheapest is not the same as best for you. The Syros EV — the overall pick — is 11th on cost, ₹5.8L above the Tiago over five years. The Punch EV is the 5★ value at ₹1.8L over the Tiago.'},
   '150':{p:150,c:125,e:5.5,label:'Oil $150',note:'Petrol cars already lose ground. The Brezza rises by ₹1.56L; the Punch EV by ₹0.03L. CNG remains the cheapest fossil bridge.'},
   '200':{p:200,c:160,e:6.0,label:'Oil $200',note:'The Brezza rises by ₹3.2L; the Punch EV by ₹0.07L. At 15,000 km/year the Punch EV overtakes the Dzire CNG. This is the hedge.'}
 };
@@ -1423,7 +1425,7 @@ function renderBars(key){
   const s = SCEN[key];
   const rows = CARS.map(c=>({...c, net:net(c,s)})).sort((a,b)=>a.net-b.net);
   $('barChart').innerHTML = rows.map((r,i)=>`
-    <div class="bar-row ${i===0?'best':''}">
+    <div class="bar-row ${r.name==='Syros EV'?'best':''}">
       <div class="bar-label">${r.name}<small>${r.sub}</small></div>
       <div class="track"><div class="fill ${r.fuel}" data-w="${(r.net/20*100).toFixed(1)}"></div></div>
       <div class="bar-val">₹${r.net.toFixed(2)}L<small>${Math.round(r.net*100000/60).toLocaleString('en-IN')}/mo</small></div>
