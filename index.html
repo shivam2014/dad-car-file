@@ -197,6 +197,10 @@ section{padding:clamp(54px,6.5vw,86px) 0;border-bottom:1px solid var(--line);scr
 .legend{display:flex;gap:13px;flex-wrap:wrap;margin:2px 0 14px}
 .legend span{display:inline-flex;align-items:center;gap:5px;font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .legend i{width:8px;height:8px;border-radius:2px;display:inline-block}
+.chart-pick{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;background:var(--blue-3);border:1px solid var(--blue-2);border-radius:7px;padding:10px 12px;margin:0 0 12px}
+.chart-pick .lab{font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--blue)}
+.chart-pick b{font-size:13px;letter-spacing:-.01em}
+.chart-pick .val{font-size:11px;color:var(--muted)}
 .bars{display:grid;gap:2px}
 .bar-row{display:grid;grid-template-columns:160px 1fr 76px;gap:12px;align-items:center;padding:7px 6px;border-bottom:1px solid var(--line-2);border-radius:5px}
 .bar-row:last-child{border-bottom:0}
@@ -549,6 +553,7 @@ tr.highlight td{background:var(--blue-3)}
         <span><i style="background:#87b4dd"></i>CNG</span>
         <span><i style="background:#e0ac63"></i>Petrol</span>
       </div>
+      <div class="chart-pick"><span class="lab">The pick</span><b>Kia Syros EV 51.4</b><span class="val">₹14.65L net over 5 years · 11th of 12 on cost</span></div>
       <div class="bars" id="barChart"></div>
       <p class="chart-note" id="chartNote">Cheapest is not the same as best for you. The Syros EV — the overall pick — is 11th on cost, ₹5.8L above the Tiago over five years. The Punch EV is the 5★ value at ₹1.8L over the Tiago.</p>
       <p class="chart-note">The chart shows the shortlist, including the ₹17.9L pair; the table adds the rest up to ₹25L.</p>
